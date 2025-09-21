@@ -60,7 +60,7 @@ Final logged metrics after 1000 episodes:
 ### Training Performance Visualization  
 
 <p align="center">
-  <img src="histo.png" alt="Training Reward Curve" width="600"/>
+  <img src="figure.png" alt="Training Reward Curve" width="600"/>
 </p>  
 
 ---
