@@ -3,6 +3,10 @@
 ## Abstract  
 In this work, we implement and train a reinforcement learning agent using the **Deep Deterministic Policy Gradient (DDPG)** algorithm in the **BipedalWalker-v3** environment from OpenAI Gym. The task requires controlling a bipedal robot with continuous action spaces to walk efficiently across rugged terrain. We design **Actor–Critic neural networks**, employ **experience replay** and **Ornstein–Uhlenbeck exploration noise**, and track training performance across 1000 episodes. Due to computational constraints, full convergence was not achieved, but the results demonstrate the ability of the DDPG agent to learn stable walking strategies.  
 
+<p align="center">
+  <img src="figure.png" alt="Training Reward Curve" width="600"/>
+</p>  
+
 ---
 
 ## 1. Introduction  
@@ -56,12 +60,6 @@ Final logged metrics after 1000 episodes:
 - **Mean Distance:** 39.83  
 - **Actor Loss:** -4.07  
 - **Critic Loss:** 1.76  
-
-### Training Performance Visualization  
-
-<p align="center">
-  <img src="figure.png" alt="Training Reward Curve" width="600"/>
-</p>  
 
 ---
 
